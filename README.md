@@ -60,9 +60,6 @@ AI-Intent-Calling/
 │   ├── linear_svc_model.pkl
 │   └── tfidf_vectorizer.pkl
 │
-├── background/
-│   └── img_01.jpg
-│
 ├── requirements.txt
 └── README.md
 ```
