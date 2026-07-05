@@ -2,7 +2,7 @@
 
 An AI-powered Streamlit application that identifies a user's intent from natural language text and routes them to the appropriate action page.
 
-The project uses Machine Learning with TF-IDF Vectorization and a Linear Support Vector Classifier (LinearSVC) to classify user commands into predefined intents such as calling, emailing, alarms, music, calculator, camera, flashlight, and more.
+The project uses Machine Learning with TF-IDF Vectorization and a Linear Support Vector Classifier (LinearSVC) to classify user commands into predefined intents such as calling, emailing, alarms, music, calculator, camera, flashlight, and 
 
 ---
 
