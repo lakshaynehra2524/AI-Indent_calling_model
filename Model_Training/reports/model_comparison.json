@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "name": "TF-IDF + CalibratedClassifierCV(LinearSVC)",
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "avg_latency_ms": 0.0190209876552812
+  },
+  "model_b": {
+    "name": "sentence-embeddings (all-MiniLM-L6-v2) + LogisticRegression",
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "avg_latency_ms": 1.38870432098805
+  },
+  "winner": "TF-IDF + CalibratedClassifierCV(LinearSVC)",
+  "decision": "Shipping 'TF-IDF + CalibratedClassifierCV(LinearSVC)' - it matches or beats model B (0.0000 macro-F1 ahead) while staying lighter."
+}

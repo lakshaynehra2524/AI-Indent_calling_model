@@ -1,0 +1,5 @@
+# Training/benchmarking/testing-only dependencies - not needed to run the app.
+# Installs on top of the root requirements.txt.
+sentence-transformers
+pytest
+httpx

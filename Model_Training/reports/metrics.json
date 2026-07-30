@@ -1,0 +1,88 @@
+{
+  "model": "TF-IDF + CalibratedClassifierCV(LinearSVC)",
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "classification_report": {
+    "open_alarm": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 34.0
+    },
+    "open_calculator": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 28.0
+    },
+    "open_call": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    },
+    "open_camera": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 32.0
+    },
+    "open_flashlight": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 34.0
+    },
+    "open_mail": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "open_music": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 36.0
+    },
+    "open_running": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 26.0
+    },
+    "open_sleep_tracker": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "open_water_tracker": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "unknown": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 24.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 324.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 324.0
+    }
+  },
+  "n_train": 1296,
+  "n_test": 324
+}
