@@ -11,6 +11,9 @@ Example: `"call mom in 10 minutes"` →
 {"intent": "open_call", "confidence": 0.93, "entities": {"contact": "mom"}, "route": "call"}
 ```
 
+> This project is local-only by design - there is no hosted/deployed version.
+> Everything below runs on `localhost`.
+
 ## What's real vs. what's UI-only
 
 | Section | Status |
@@ -97,3 +100,10 @@ uvicorn api.main:app --reload
 Try: `"call mom"`, `"set an alarm in 10 minutes"`, `"5 * (3 + 2)"`,
 `"mail to john about the report"`, `"play some jazz"`, and a nonsense phrase
 to see the low-confidence fallback to Home.
+
+## Tests
+
+`pytest` covers `core/` (predictor, entity extraction, router, safe math),
+the FastAPI endpoints via `TestClient`, and three Streamlit `AppTest`-driven
+UI tests that actually run `app.py` end-to-end (a chat command routing to a
+section and computing a real result, and the low-confidence fallback).
