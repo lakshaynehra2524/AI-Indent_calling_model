@@ -1,6 +1,10 @@
 # AI Function-Calling Assistant
 
-
+A natural-language assistant that classifies free-text commands into an
+**intent**, extracts the **slots/arguments** for that intent (contact name,
+time, arithmetic expression, ...), and routes to a real action - the same
+shape as LLM "function calling" / tool use, built on a classical ML pipeline
+instead of an LLM.
 
 Example: `"call mom in 10 minutes"` →
 ```json
