@@ -235,7 +235,12 @@ elif st.session_state.active_section == "analytics":
     analytics.render()
 
 
+# Chatgpt style input 
+st.markdown("---")
 
+user_input = st.chat_input(
+    "Type your command..."
+)
 
 
 # Prediction
