@@ -46,4 +46,6 @@ def predict(request: PredictRequest):
     )
 
 
-
+@app.get("/stats")
+def stats():
+    return get_stats()
