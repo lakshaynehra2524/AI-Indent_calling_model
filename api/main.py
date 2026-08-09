@@ -33,7 +33,17 @@ def health():
     return {"status": "ok"}
 
 
+@app.post("/predict", response_model=PredictResponse)
+def predict(request: PredictRequest):
+    intent, confidence = predict_intent(request.text)
+    entities = extract_entities(request.text, intent)
+    route = route_intent(intent, confidence)
 
+    log_prediction(request.text, intent, confidence, entities, route)
+
+    return PredictResponse(
+        intent=intent, confidence=confidence, entities=entities, route=route
+    )
 
 
 @app.get("/stats")
